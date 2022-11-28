@@ -5,11 +5,12 @@
 print('Введите число: ')
 a = float(input())
 
-def sum(x):
+def Summa(x):
     result = 0
-    while x != 0:
-        result = result + x%10
-        x = x/10
+    for i in str(a):
+        if i != '.':
+            result = result + int(i)
+
     return result
 
-print(sum(a))
+print(Summa(a))
