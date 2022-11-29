@@ -8,4 +8,4 @@ m = 1
 for i in range(0, a + 1):
     i += 1
     m = m*i
-    print(m, end=" ")
+    print(m, end = " ")

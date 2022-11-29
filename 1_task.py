@@ -13,4 +13,4 @@ def Summa(x):
 
     return result
 
-print(Summa(a))
+print(f'Сумма цифр в числе равна: {Summa(a)}')
