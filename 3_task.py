@@ -10,5 +10,5 @@ for i in list(range(1, n+1)):
     print(res, end = " ")
     sum += res
 print()
-print(sum)
+print(f'Сумма чисел последовательности равна {sum}')
     

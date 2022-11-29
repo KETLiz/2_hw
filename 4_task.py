@@ -5,5 +5,12 @@
 # Позиции: 0,1 -> 2
 
 a = int(input('Введите число: '))
-for i in list(range(-a, a + 1)):
-    print(i, end = " ")
+
+num = list(range(-a, a + 1))
+print(num)
+
+x = int(input('Введите индекс числа: '))
+y = int(input('Введите индекс числа: '))
+
+result = num[x]*num[y]
+print(result)
